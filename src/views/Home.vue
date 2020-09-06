@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class=" container d-flex align-items-center">
+    <div class=" container d-flex align-items-center p-3">
       <TextInput
         @change="search"
         lable="Search"
