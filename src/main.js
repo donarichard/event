@@ -7,7 +7,11 @@ import vuetify from "./plugins/vuetify";
 import BootstrapVue from "bootstrap-vue";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
-
+import VueToast from "vue-toast-notification";
+import "vue-toast-notification/dist/theme-default.css";
+Vue.use(VueToast, {
+  position: "top"
+});
 Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false;
